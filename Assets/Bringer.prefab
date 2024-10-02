@@ -13,9 +13,11 @@ GameObject:
   - component: {fileID: 4190524515626913555}
   - component: {fileID: 5086660483766409269}
   - component: {fileID: 3534215174761540092}
+  - component: {fileID: 1067100556923161134}
+  - component: {fileID: -8354453907838130626}
   m_Layer: 0
   m_Name: Bringer
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -180,3 +182,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.3629823, y: 2.30411}
   m_EdgeRadius: 0
+--- !u!114 &1067100556923161134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8775165634967742927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da57800110fd423681b87299d829e80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-8354453907838130626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8775165634967742927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f79d544c42641a5bc9703eea02dd296, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
